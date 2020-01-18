@@ -33,6 +33,10 @@
         height: 30vh;
     }
 
+    .bg-red {
+        background-color: red;
+    }
+
     .container {
         margin: 0 auto;
         max-width: 1366px;
@@ -68,6 +72,16 @@
         font-size: 60px;
     }
 
+    .dots span {
+        display: inline-block;
+        border-radius: 50%;
+        background-color: red;
+        border: 1px solid red;
+        width: 20px;
+        height: 20px;
+        margin: 4px 2px;
+    }
+
     </style>
   </head>
   <body>
@@ -90,7 +104,25 @@
                     </div>
                     <div class="col col-7">
                         <div class="right-align">
-                            <h1 class="font-main mt0">artwork</h1>
+                            <div class="clearfix">
+                                <div class="col col-8">
+                                    &nbsp;
+                                </div>
+                                <div class="col col-4">
+                                    <h1 class="font-main m0">artwork</h1>
+                                    <div class="dots flex">
+                                        <div class="pl3">
+                                            <span class="left"></span>
+                                        </div>
+                                        <div class="pl3">
+                                            <span></span>
+                                        </div>
+                                        <div class="pl4">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
                         </div>
                     </div>
                 </div>
