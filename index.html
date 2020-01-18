@@ -72,12 +72,20 @@
         font-size: 66px;
     }
 
+    .text-black {
+        color: #000;
+    }
+
     .dots {
         border-radius: 50%;
         background-color: red;
         border: 1px solid red;
         width: 20px;
         height: 20px;
+    }
+
+    a {
+        cursor: pointer;
     }
 
     </style>
@@ -109,13 +117,19 @@
                                     <h1 class="font-main m0 right-align">artwork</h1>
                                     <div class="clearfix">
                                         <div class="col col-4">
-                                            <div class="dots"></div>
+                                            <a href="./design.html">
+                                                <div class="dots"></div>
+                                            </a>
                                         </div>
                                         <div class="col col-4">
-                                            <div class="dots"></div>            
+                                            <a href="./arte.html">
+                                                <div class="dots"></div>
+                                            </a>            
                                         </div>
                                         <div class="col-right col-4">
-                                            <div class="dots right"></div>      
+                                            <a href="./fotografia.html">
+                                                <div class="dots"></div>
+                                            </a>    
                                         </div>  
                                     </div>
                             </div>    
@@ -126,26 +140,28 @@
         <footer class="container">
             <div class="menu border-top-menu">
                 <div class="col col-3 flex">
-                    <div>
-                        <h3>sobre</h3>
+                    <div class="my2">
+                        <a href="./sobre.html" class="text-decoration-none text-black h3">sobre</a>
                     </div>
-                    <div class="pl2">
-                        <h3>contato</h3>
+                    <div class="pl2 my2">
+                        <a href="./contato.html" class="text-decoration-none text-black h3">contato</a>
                     </div>
                 </div>
                 <div class="col col-5">
                     &nbsp;
                 </div>
                 <div class="col col-3 flex">
-                    <div>
-                        <h3>design</h3>
+                    <div class="my2">
+                        <a href="./design.html" class="text-decoration-none text-black h3">design</a>
                     </div>
-                    <div class="pl2">
-                        <h3>arte</h3>
+                    <div class="pl2 my2">
+                        <a href="./arte.html" class="text-decoration-none text-black h3">arte</a>
                     </div>
                 </div>
                 <div class="col col-1 right-align">
-                    <h3>fotografia</h3>
+                    <div class="my2">
+                        <a href="./fotografia.html" class="text-decoration-none text-black h3">fotografia</a>
+                    </div>
                 </div>
             </div>
         </footer> 
